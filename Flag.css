@@ -1,0 +1,106 @@
+body {
+background-color: cadetblue;
+}
+
+.container {
+
+    padding: 10px;
+    margin: 30px;
+    /* border: 0.5px solid gray; */
+    /* width: 550px; */
+    /* height: 450px;  */
+    display: flex;
+    /* flex-direction: row; */
+    flex-direction: column;
+    /* flex-flow: wrap; */
+    justify-content: center;
+    align-content: center;
+
+
+}
+
+.flags {
+    /* font-size: 20px; */
+    /* font-weight: 100;  */
+    color: antiquewhite;
+    text-align: center;
+    margin: 0px;
+    width: 500px;
+    height: 50px;
+    cursor: grab;
+
+    border: 0.1px solid wheat;
+    /* border-radius: 3px; */
+
+
+
+
+
+}
+
+.flags:hover {
+    transform: scale(1.02);
+    transition-duration: 0.3s;
+
+}
+
+.flag1 {
+    background: orange;
+    color: orange;
+
+}
+
+.flag2 {
+    background: white;
+
+}
+
+img {
+    width: 35px;
+    height: 35px;
+    margin-top: 9px;
+    filter: brightness(120%);
+}
+
+.flag3 {
+    background: green;
+    color: green;
+}
+
+/* .box{
+    width: 10px;
+    height: 90px;
+    box-shadow: brown;
+    background: brown;
+
+}
+
+  */
+
+@media (max-width : 500px) {
+    .flag1 {
+        /* background-color: white */
+         background-color: darkorange;
+
+    }
+
+    .flag2 {
+          /* background-color: darkorange; */
+                 
+          
+    background-color: white
+
+
+        /* background: white; */
+    }
+
+    .flag3{
+        background-color: darkgreen;
+                /* background: white; */
+
+    }
+    
+    img{
+        filter: brightness(120px);
+    }
+}
